@@ -13,11 +13,10 @@
 }
 
 .section-1-bg{
-    /* background-image: url(pedro.jpeg.jpeg) */
-    background-image:linear-gradient(white,rgb(49, 14, 118),black);
-   
+    background-image: url(walpaper.jpg) ;
+    background-repeat: no-repeat;
     background-position: center center;
-    background-size: ;
+    background-size:cover ;
     height: 100vh;
     width: 100%;
 }
@@ -35,6 +34,8 @@ aside{
     height: 45px;
     margin-right: 15px;
     margin-top: 30px;
+    color: #fff;
+    size: 30px;
 }
 
 #barra-menu{
@@ -77,9 +78,9 @@ aside{
 }
 
 .C-icon span:hover{
-transition: 0.2s;
-transform: 0.5s;
-color: black;
+    transition: 0.2s;
+    transform: 0.5s;
+    color: black;
 }
 
  .main-title{
@@ -92,7 +93,7 @@ color: black;
  }
 
  .main-title h1{
-    color: blue;
+    color: rgb(205, 3, 3);
     font-size: 70px;
     margin-top: 15%;
     font-family: "poppins";
@@ -101,7 +102,7 @@ color: black;
  }
 
  .main-title h2{
-    color: blue;
+    color: rgb(205, 3, 3);
     font-size: 50px;
     font-family: "Hannuman";
     font-weight: bold;
@@ -109,7 +110,7 @@ color: black;
  }
 
  .main-title h5{
-    color: black;
+    color: #fff;
     font-size: 25px;
     font-family: "Hannuman";
     letter-spacing: 2px;
@@ -120,18 +121,70 @@ color: black;
     width: 15%;
     margin-top: 80px;
     padding: 8px 5px;
-    background-color: rgb(207, 80, 80);
+    font-size: 20px;
+    background-color: white;
     border-radius: 50px;
-    color: blue;
-    font-family: "Inter";
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
-    transition-duration: .9s;
+    transition-duration: 0.9s;
  }
+
  .main-title button:hover{
-    border: solid 1px blue;
+    border: solid 2px black;
     transition: 0.6s;
     background: transparent;
  }
+
+.numeros{
+    display: flex;
+    margin-top: 35px;
+    color: rgb(205, 3, 3);
+    gap: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.title h3{
+    font-size: 35px;
+    margin-top: 15px;
+    font-family: "inter";
+    font-weight: bold;
+}
+
+.title p{
+    font-family: "inter";
+    font-weight: normal;
+
+}
+
+.title:hover{
+    transition: 1.2s;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 414px) {
+    .main-title h1{
+        font-size: 40px;
+        margin-top: 50%;
+        margin-right: 15%;
+    }
+
+    .main-title h2{
+        font-size: 25px;
+        margin-right: 15%;
+    }
+
+    .main-title button{
+        width: 150px;
+    }
+
+    .numeros{
+        margin-right: 25%;
+        margin-top: 30%;
+    }
+    
+}
 
 
  
