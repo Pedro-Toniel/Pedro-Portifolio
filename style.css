@@ -29,7 +29,7 @@ aside{
     overflow: hidden;
 }
 
-.icon-menu span{
+.icon-menu img{
     width: 45px;
     height: 45px;
     margin-right: 15px;
@@ -167,7 +167,7 @@ aside{
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 380px) {
     .main-title h1{
         font-size: 40px;
         margin-top: 50%;
@@ -176,7 +176,7 @@ aside{
 
     .main-title h2{
         font-size: 25px;
-        margin-right: 15%;
+        margin-right: 25%;
     }
 
     .main-title button{
@@ -185,7 +185,7 @@ aside{
 
     .numeros{
         margin-right: 25%;
-        margin-top: 30%;
+        margin-top: 15%;
     }
     
 }
