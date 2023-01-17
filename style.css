@@ -13,7 +13,7 @@
 }
 
 .section-1-bg{
-    background-image: url(walpaper.jpg) ;
+    background-image: url(fundo.jpeg) ;
     background-repeat: no-repeat;
     background-position: center center;
     background-size:cover ;
@@ -110,7 +110,7 @@ aside{
  }
 
  .main-title h5{
-    color: #fff;
+    color: yellow;
     font-size: 25px;
     font-family: "Hannuman";
     letter-spacing: 2px;
@@ -130,6 +130,10 @@ aside{
     transition-duration: 0.9s;
  }
 
+.main-title button a {
+    color: black;
+}
+
  .main-title button:hover{
     border: solid 2px black;
     transition: 0.6s;
@@ -139,7 +143,7 @@ aside{
 .numeros{
     display: flex;
     margin-top: 35px;
-    color: rgb(205, 3, 3);
+    color: yellow;
     gap: 40px;
     cursor: pointer;
     transition: 0.5s;
